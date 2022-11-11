@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>ScanSelos Bidimensional - Scan Selos Bidimensional</title>
+    <title>Ambiente Web - Scan Selos Bidimensional</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "ScanSelos Bidimensional";
-        var mkdocs_page_input_path = "manual\\manual_operacao.md";
+        var mkdocs_page_name = "Ambiente Web";
+        var mkdocs_page_input_path = "manual\\ambiente_web.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -41,7 +41,7 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Apresentação</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Arquitetura</span></p>
@@ -50,8 +50,20 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Manual Operação</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../instalacao/">Instalação</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../instalacao/">Aplicação Desktop</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Ambiente Web</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#acessando-scanselobidimensional-web">Acessando ScanSeloBidimensional Web</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuracao-da-base-aerea">Configuração da Base Aerea</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuracao-dos-coletores">Configuração dos Coletores</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cadastro-de-senha-administrativa">Cadastro de Senha Administrativa</a>
+    </li>
+    </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">Integrações</span></p>
@@ -75,7 +87,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>ScanSelos Bidimensional</li>
+          <li>Manual Operação &raquo;</li>
+      <li>Ambiente Web</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -84,20 +97,33 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="scanselos-bidimensional">ScanSelos Bidimensional</h1>
-<p>O sistema ScanSeloBidimensional é o sistema responsável por ler os selos físicos, eletrônicos e bidimensonais e alimentar uma base de dados que é utilizada para faturar as companhias aéreas.</p>
-<p>O sistema possui:</p>
-<p>Cadastro de bases aéreas;</p>
-<p>Cadastro e configurações de interfaces WiFi para descarga automática de selos;</p>
-<p>Configurações de tempo de tolerância e carência para leitura e liberação;</p>
-<p>Configuração de quantidades possíveis de leituras;</p>
-<p>Configurações de BlackList individual ou intervalo de selos físicos;</p>
-<p>Upload de selos para base a fim de conciliação;</p>
-<p>Possível integração customizada com outros sistemas;</p>
-<p>A Aplicação Scan Selo Bidimensional está preparada para utilização apenas nos coletores Cipher Lab modelo 8230 e Zebra modelo EC300K.</p>
+                <h2 id="ambiente-web">AMBIENTE WEB</h2>
+<h3 id="acessando-scanselobidimensional-web">Acessando ScanSeloBidimensional Web</h3>
+<p>Para acessar o sistema Scan Selo Bidimensional Web, acesse em seu nvagador de internet a url :</p>
+<pre><code>https://scanselobidimensional.com/SeloBidimensional
+</code></pre>
+<p><img alt="Screenshot" src="../img/login_web.jpg" /></p>
+<p>Faça o LOGIN utilizando as credênciais fornecidas pelas Scan Brazil Consulting para o primeiro acesso.</p>
+<p>No primeiro acesso ao sistema será solicidado a troca da senha padrão de acesso.</p>
+<h3 id="configuracao-da-base-aerea">Configuração da Base Aerea</h3>
+<p>Acesse o link “CONFIGURAÇÕES &gt; CADASTRO DE CONFIGURAÇÕES” para cadastrar as configurações da rede Wi-Fi para cada aeroporto. Na página de configurações, clique no botão “NOVO CADASTRO”:</p>
+<p>Preencha todos os dados com as configurações da base aerea e rede Wi-Fi que os coletores irão acessar para enviar os selos no modo on-line e clique no botão “SALVAR”:</p>
+<p><img alt="Screenshot" src="../img/configurar_base_aerea.jpg" /></p>
+<h3 id="configuracao-dos-coletores">Configuração dos Coletores</h3>
+<p>Acesse o link “COLETORES” &gt; “CADASTRO COLETORES” para cadastrar as configurações de cada coletor. Na página dos coletores, clique no botão “NOVO CADASTRO”:</p>
+<p>Preencha todos os dados com as configurações do coletor que esta sendo atualizado e clique no botão “SALVAR”:</p>
+<p><img alt="Screenshot" src="../img/configurar_coletores.jpg" /></p>
+<h3 id="cadastro-de-senha-administrativa">Cadastro de Senha Administrativa</h3>
+<p>Acesse o link “COLETORES” &gt; “SENHA ADMINISTRATIVA” para cadastrar a senha administrativa dos coletor. Na página da senha administrativa, clique no botão “CADASTRAR NOVA SENHA”:</p>
+<p><img alt="Screenshot" src="../img/cadastro_senha_adm.jpg" /></p>
+<p>Para segurança das informações e configurações é necessário que seja cadastrado uma senha administrativa para acesso as configurações dos coletores. Esse senha será solicitada para qualquer configuração a ser realizada de forma manual no coletor.</p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../instalacao/" class="btn btn-neutral float-left" title="Aplicação Desktop"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../integracao/integracao_bilhetagem/" class="btn btn-neutral float-right" title="Consumo de selos">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -119,6 +145,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="../instalacao/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../integracao/integracao_bilhetagem/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>

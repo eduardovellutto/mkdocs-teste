@@ -1,7 +1,9 @@
 site_name: Scan Selos Bidimensional
 
 nav:
-  - Apresentação: index.md
+  - Apresentação:
+    - Apresentação: index.md
+    
   - Arquitetura:
     - Arquitetura ScanSelos: arquitetura/arquitetura.md
 
