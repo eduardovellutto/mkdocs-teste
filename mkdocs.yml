@@ -1,11 +1,13 @@
 site_name: Scan Selos Bidimensional
 
 nav:
-  - Home: index.md
+  - Apresentação: index.md
   - Arquitetura:
     - Arquitetura ScanSelos: arquitetura/arquitetura.md
+
   - Manual Operação: 
-    - Instalação: manual/instalacao.md
+    - Aplicação Desktop: manual/instalacao.md
+    - Ambiente Web: manual/ambiente_web.md
   
   - Integrações: 
     - Consumo de selos: integracao/integracao_bilhetagem.md
@@ -14,6 +16,4 @@ nav:
 
 theme: 
   name: readthedocs
-  palette:
-    scheme: default
-    primary: red
+
