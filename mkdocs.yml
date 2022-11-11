@@ -1,7 +1,11 @@
-site_name: My Docs
+site_name: Scan Selos Bidimensional
 
 nav:
   - Home: index.md
-  - About: about.md
 
-theme: readthedocs
+
+theme: 
+  name: readthedocs
+  palette:
+    scheme: default
+    primary: red

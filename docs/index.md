@@ -1,17 +1,19 @@
-# Brincando com MKdocs
+# ScanSelos Bidimensional
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Documentação para consulta de selos não processados
 
-## Commands
+## Consultar Selos não processados
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Para consultar os selos que ainda não foram processados, deve-se inserir a url do webservice como método "POST"
 
-## Project layout
+    https://scanselosbidimensional.com/seloBidimensional/WSScanselobidimensional.asmx
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![Screenshot](img/request_postman.png)
+
+
+Inserir no Body da requisição as seguintes informações
+
+![Screenshot](img/body_request_postman.png)
+
+
+
