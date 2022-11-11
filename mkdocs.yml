@@ -2,6 +2,14 @@ site_name: Scan Selos Bidimensional
 
 nav:
   - Home: index.md
+  - Arquitetura:
+    - Arquitetura ScanSelos: arquitetura/arquitetura.md
+  - Manual Operação: 
+    - Instalação: manual/instalacao.md
+  
+  - Integrações: 
+    - Consumo de selos: integracao/integracao_bilhetagem.md
+    - Fluxo após consumo se selos: integracao/pos_consumo_selos.md
 
 
 theme: 
